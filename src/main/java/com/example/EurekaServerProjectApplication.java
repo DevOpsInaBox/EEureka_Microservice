@@ -10,7 +10,6 @@ import io.prometheus.client.spring.boot.EnableSpringBootMetricsCollector;
 import java.util.LinkedHashSet;
 import java.util.Set;
 import java.util.StringTokenizer;
-
 import javax.servlet.http.HttpServletRequest;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
