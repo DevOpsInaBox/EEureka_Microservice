@@ -29,7 +29,6 @@ public class EurekaServerProjectApplication {
 public static void main(String[] args) {
 	SpringApplication.run(EurekaServerProjectApplication.class, args);
 }
-
 // This method is for resolving duplicate metrics exposed by Prometheus clients
  @RequestMapping(method=RequestMethod.GET,value="/prometheus-metrics", produces=MediaType.TEXT_PLAIN_VALUE)
  public ResponseEntity<String> getData(HttpServletRequest req){
